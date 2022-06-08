@@ -148,7 +148,7 @@ h2::after {
     }
 
     .item {
-        width: 75%;
+        width: 80%;
     }
 
     .item.text {
@@ -335,6 +335,9 @@ h2::after {
 
     .portfolio .item.text .more:hover {
         color: #003973;
+    }
+    .portfolio .item.img {
+        width: 90%;
     }
 }
 
