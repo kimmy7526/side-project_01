@@ -117,5 +117,5 @@ window.onload=()=>{
     let load=document.getElementById("loading");
     setTimeout(()=>{
         load.style.display="none";
-    },4000);
+    },5000);
 }

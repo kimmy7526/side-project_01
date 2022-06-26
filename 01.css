@@ -46,6 +46,7 @@ h2::after {
 }
 
 /* loading */
+
 .loading{
     position: fixed;
     left: 0;
