@@ -236,7 +236,11 @@ h2::after {
         transform: rotate(-40deg);
         transition: .5s;
     }
-
+    /* ! */
+    .about .block {
+        width: 100%;
+        display: block;
+    }
 
     /* skills滑動特效 */
     .skills .wrap {
@@ -458,7 +462,6 @@ h2::after {
     object-fit: cover;
 }
 
-/* ! */
 .header .banner .arrow {
     position: absolute;
     left: 50%;
@@ -466,15 +469,11 @@ h2::after {
     animation: down 5s ease-in 1s infinite;
 }
 
-.header .banner .arrow:hover {
-    background-color: #fff;
-}
 
 .arrow::before {
     content: "";
     display: inline-block;
-    /* border: 2.5px solid rgb(45, 35, 84); */
-    background-color: #003973;
+    background-color: #8c99a7;
     height: 5px;
     width: 15px;
     transform-origin: right bottom;
@@ -484,8 +483,7 @@ h2::after {
 .arrow::after {
     content: "";
     display: inline-block;
-    /* border: 2.5px solid rgb(45, 35, 84); */
-    background-color: #003973;
+    background-color:#8c99a7;
     height: 5px;
     width: 15px;
     transform-origin: left bottom;
@@ -545,32 +543,17 @@ h2::after {
     font-size: 30px;
 }
 
-.about img {
-    width: 90px;
-    height: 90px;
-}
 
 .about .block {
-    width: 50%;
+    display: inline-block;
+    width: 48%;
     text-align: center;
 }
-
-.about .block:nth-child(1) {
-    margin-bottom: -10%;
+.about .block img{
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
 }
-
-.about .block:nth-child(2) {
-    margin-left: auto;
-}
-
-.about .block:nth-child(3) {
-    margin-top: -20%;
-}
-
-
-
-
-
 .skills {
     background: url("pic/pexels-maizal-najmi-1654318.jpg") fixed center/cover;
 }
