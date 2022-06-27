@@ -7,10 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Resume</title>
     <link rel="stylesheet" href="01.css">
-
 </head>
-
-<!-- about right + portfolio content +English -->
 
 <body>
     <div class="loading" id="loading">
@@ -34,11 +31,11 @@
                 <h3 class="logo"><a href="#header"><img src="pic/rangoli.png" alt="logo"></a></h3>
                 <input type="checkbox" id="menu">
                 <nav>
-                    <a href="#header" class="btn">Home</a>
-                    <a href="#about" class="btn">About</a>
-                    <a href="#skill" class="btn">Skills</a>
-                    <a href="#portfolio" class="btn">Portfolio</a>
-                    <a href="#contact" class="btn">Contact</a>
+                    <a href="#header" class="btn">主頁</a>
+                    <a href="#about" class="btn">關於</a>
+                    <a href="#skill" class="btn">技能</a>
+                    <a href="#portfolio" class="btn">作品</a>
+                    <a href="#contact" class="btn">聯絡</a>
                 </nav>
                 <!-- hamburger -->
                 <div class="hamburgers" onclick="toggle()">
@@ -70,23 +67,16 @@
             <h1>關於我</h1>
             <div class="wrap">
                 <div class="item" id="slide">
-                    <h2>楊宜芬</h2>
-                    <p>
-                        我是一個熱愛彈吉他的女孩，也很喜歡跟朋友一起運動，大二那年在跆拳道社擔任幹部，運動的同時也學習到許多籌備活動和溝通合作的能力。
-                        <br> 在大學課堂上首次接觸到前端開發，學習過程中因比起後端語言更喜歡前端的介面設計，因此踏上前端的自學之路。
-                        <br> 目前準備升上大四，因此開始尋找長期實習的機會，未來半年會專注在前端技術上，持續深入學習JavaScript語法並開始學習前端框架為主。
+                    <p>Hi</p>
+                    <img src="pic/1CA79CB1-569B-45C2-91D8-986BD3D581F5.png" alt="">
+                </div>
+                <div class="item" id="slide">
+                    <h2>我叫楊宜芬</h2>
+                    <p>我是一個熱愛彈吉他的女孩，也喜歡跟朋友一起運動，大學期間熱衷於社團活動，在跆拳道社擔任活動企劃和社群小編，運動的同時也學習到許多籌備活動和合作協調的能力，這段經驗也讓我收穫許多成就感和溫暖。
+                        <br>在大學課堂上首次接觸到前端開發，學習過程中因比起後端語言更喜歡前端的介面開發，因此踏上前端的自學之路。
+                        <br>目前準備升上大四，因此開始尋找長期實習的機會，未來半年會專注在前端技術上，持續深入學習JavaScript語法並開始學習前端框架為主。
                     </p>
                 </div>
-                <!-- <div class="item" id="slide">
-                    <div class="block">
-                        <img src="pic/pexels-pixabay-356079.jpg" alt="html">
-                        <h5>獨立思考</h5>
-                    </div>
-                    <div class="block">
-                        <img src="pic/handshake.png" alt="html">
-                        <h3>團隊合作</h3>
-                    </div>
-                </div> -->
             </div>
         </div>
 
@@ -97,7 +87,7 @@
             <input type="radio" id="control-3" name="control">
             <div class="wrap">
                 <div class="item">
-                    <h3>Front-End Skills</h3>
+                    <h3>前端</h3>
                     <div class="pic">
                         <img src="pic/html.png" alt="html">
                         <p>HTML</p>
@@ -114,13 +104,13 @@
                         <img src="pic/bootstrap.png" alt="bootstrap">
                         <p>Bootstrap</p>
                     </div>
-                    <div class="pic">
+                    <!-- <div class="pic">
                         <img src="pic/sass.png" alt="sass">
                         <p>Sass</p>
-                    </div>
+                    </div> -->
                 </div>
                 <div class="item">
-                    <h3>Back-End Skills</h3>
+                    <h3>後端</h3>
                     <div class="pic">
                         <img src="pic/java.png" alt="java">
                         <p>Java</p>
@@ -128,7 +118,7 @@
 
                 </div>
                 <div class="item">
-                    <h3>Others</h3>
+                    <h3>其他</h3>
                     <div class="pic">
                         <img src="pic/github.png" alt="github">
                         <p>GitHub</p>
@@ -146,47 +136,46 @@
 
 
         <div class="portfolio" id="portfolio">
-            <h1>Portfolio</h1>
+            <h1>作品</h1>
             <div class="wrap">
                 <div class="item img" id="slide">
                     <a href="#profolio" onclick="showPopup()">
-                        <img src="pic/portfolio.png" alt="img01">
+                        <img src="pic/portfolio01.png" alt="img01">
                         <h3>個人網站</h3>
                     </a>
                 </div>
                 <div class="item text">
                     <h3>個人網站</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error iste sed
-                        voluptatum illum exercitationem suscipit dolorem obcaecati non impedit vel!
-                        <br> 正在持續更新中......
+                    <p>主要內容以個人履歷和作品集為主，利用所學，以純手刻的方式，搭配RWD完成該作品。
+                        <br> ✓點擊圖片查看更多
                     </p>
                     <a class="more" onclick="showPopup()" href="#profolio">More</a>
                 </div>
             </div>
             <div class="wrap">
                 <div class="item img" id="slide">
-                    <a href="#profolio" onclick="showPopup()">
+                    <a href="#profolio">
                         <img src="pic/pexels-pixabay-356079.jpg" alt="img02">
                         <h3>茶飲官網</h3>
                     </a>
                 </div>
                 <div class="item text">
                     <h3>茶飲官網</h3>
-                    <p>尚未完工</p>
-                    <a class="more" onclick="showPopup()" href="#profolio">More</a>
+                    <p>尚未開放</p>
+                    <a class="more" href="#profolio">More</a>
                 </div>
             </div>
             <div class="wrap">
                 <div class="item img" id="slide">
-                    <a href="#profolio" onclick="showPopup()">
+                    <a href="#profolio">
                         <img src="pic/pexels-pixabay-356079.jpg" alt="img03">
                         <h3>旅遊網站</h3>
                     </a>
                 </div>
                 <div class="item text">
                     <h3>旅遊網站</h3>
-                    <p>尚未完工</p>
-                    <a class="more" onclick="showPopup()" href="#profolio">More</a>
+                    <p>尚未開放</p>
+                    <a class="more" href="#profolio">More</a>
                 </div>
             </div>
 
@@ -194,7 +183,7 @@
             <div id="content">
                 <div class="navbar">
                     <a href=""><img src="pic/rangoli.png" alt="logo"></a>
-                    <h3>履歷&作品集</h3>
+                    <h3>個人網站</h3>
                     <div class="cancel" onclick="hidePopup()">
                         <a class="can" href="#profolio">
                             <span></span>
@@ -208,46 +197,40 @@
                     <div class="intro">
                         <a href="https://kimmy7526.github.io/hello/01.html" class="demo">demo</a>
                         <div class="colors">
-                            <div class="color"></div>
-                            <div class="color"></div>
-                            <div class="color"></div>
-                            <div class="color"></div>
+                            <div class="color">
+                                <p>#003973</p>
+                            </div>｣
+                            <div class="color">
+                                <p>#e7e5be</p>
+                            </div>
+                            <div class="color">
+                                <p>#EDF1FE</p>
+                            </div>
+                            <div class="color">
+                                <p>#F4F5F0</p>
+                            </div>
                         </div>
 
                     </div>
                     <hr>
-
                     <ul>
-                        <li>動機/目的/介紹/#技能 </li>
-                        <li>在最初時，曾與客戶接洽並提供作品集，由於是跨國合作，原本選擇了另一家廠商，在一個月之後突然回來跟我說，另一個廠商的平面設計走向太過平實，沒有達到設計感的需求，因此希望我能在剩下的這一個月接手專案的製作，重新設計一整套UI與風格。
+                        <li>個人網站分成五個部分，由上到下分別是導覽列與幻燈片、自我介紹、技能展示、作品集、頁尾，整合自身的履歷和作品於網站上。</li>
+                        <li>運用HTML、CSS將畫面先建構出來，利用CSS完成圖片輪播和向下箭頭等特效，點擊導覽列可移動至對應區塊，在作品集點擊圖片可察看該作品詳細資訊，另外在頁尾可點擊觀看github。
                         </li>
+                        <li>滑動頁面過程中運用JavaScript完成導覽列的滾動變色功能，以及計算視窗高度判斷是否載入畫面，可使瀏覽過程中將網站資訊依序呈現，並搭配Throttle減緩事件觸發次數。</li>
+                        <li>利用flex結合@media完成RWD，將導覽列轉成漢堡選單，技能展示區塊拆分成三塊輪播。</li>
                     </ul>
                     <div class="pic">
-                        <img src="pic/pexels-karolina-grabowska-6793891.jpg" alt="img03">
-                        <img src="pic/pexels-karolina-grabowska-6793891.jpg" alt="img03">
-                        <img src="pic/pexels-karolina-grabowska-6793891.jpg" alt="img03">
-                        <img src="pic/pexels-karolina-grabowska-6793891.jpg" alt="img03">
+                        <img src="pic/portfolio01.png" alt="img01">
+                        <img src="pic/portfolio02.png" alt="img02">
+                        <img src="pic/portfolio03.png" alt="img03">
+                        <img src="pic/portfolio04.png" alt="img04">
                     </div>
                     <ul>
-                        <li>心得/功能/技術(數據化 條列式 技術:長條圖 選擇原因)#手刻RWD #無框架#藥丸標籤 </li>
-                        <li>Asperiores quidem explicabo obcaecati natus dolorum nam odit at numquam labore sint
-                            assumenda, unde blanditiis enim voluptatibus eum eius expedita quibusdam doloribus,
-                            voluptate alias illo quod iste laudantium sit? Ex.</li>
-                        <li>Illo vel, error delectus aspernatur, saepe eos distinctio dolores, quisquam nam
-                            officia
-                            accusamus explicabo. Quod reiciendis voluptate harum alias vel veniam repellat
-                            dolores autem
-                            officia culpa corrupti ratione, quos optio.</li>
-                        <li>Deserunt natus quisquam quo minima, minus laboriosam id, asperiores rem, explicabo
-                            distinctio officiis voluptatem iusto quod aliquam dolore perferendis libero magni
-                            possimus
-                            fugiat quis. Nulla voluptatum facere amet ad reiciendis!</li>
-                        <li>Sit velit in saepe tempora hic beatae magnam, vitae suscipit blanditiis laborum quos
-                            facere.
-                            Illo eum ut suscipit accusantium necessitatibus eos maiores autem consequatur? Et
-                            dolorem
-                            nihil voluptatum dolor reiciendis.</li>
+                        <li>在最初準備著手累積side project時，由於是第一次單獨製作作品，不太確定要製作什麼類型，後來上網參考一些建議後，想到可以先製作一個屬於自己的個人網站。</li>
+                        <li>此作品無運用任何框架，以純手刻形式製作響應式網站，分成手機和電腦瀏覽兩種，如有缺失不足之處，願意給予指教，我會很感謝您。 </li>
                     </ul>
+
                     <div class="bar">
                         <div class="value1">HTML</div>
                         <div class="value2">CSS</div>
@@ -259,26 +242,26 @@
 
             <div class="contact" id="contact">
                 <img src="pic/rangoli.png" alt="logo">
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Distinctio, fuga.</p>
+                <p>並非所有的努力都會有結果，但努力不會帶來遺憾。</p>
                 <div class="wrap">
                     <div class="item left">
-                        <h2>More</h2>
+                        <h2>更多</h2>
                         <form action="https://github.com/kimmy7526">
                             <button>
                                 <span class="icon"><img src="pic/github.png" alt="github"></span>
-                                <span class="icon_text">Learn More</span>
+                                <span class="icon_text">瞭解更多</span>
                             </button>
                         </form>
                         <form action="#">
                             <button>
                                 <span class="icon"><img src="pic/memo.png" alt="note"></span>
-                                <span class="icon_text">Learn More</span>
+                                <span class="icon_text">尚未開放</span>
                             </button>
                         </form>
 
                     </div>
                     <div class="item right">
-                        <h2>Contact</h2>
+                        <h2>聯絡</h2>
                         <div class="con">
                             <img src="pic/user.png" alt="user">
                             <p>Kimmy</p>
@@ -294,7 +277,7 @@
                         </div>
                         <div class="con">
                             <img src="pic/clock-circular-outline.png" alt="clock">
-                            <p>方便聯絡時間：星期一至星期五的 13:00-17:00</p>
+                            <p>方便聯絡時間：週一至週日 13:00-17:00</p>
                         </div>
                     </div>
                 </div>
