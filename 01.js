@@ -1,6 +1,6 @@
 // <彈跳視窗>
 function showPopup() {
-    let cont = document.getElementById("content");
+    let cont = document.getElementById("project_1");
     cont.style.visibility = "visible";
     cont.style.left = "10%";
     cont.style.top = "5%";
@@ -12,7 +12,7 @@ function showPopup() {
     navbar.style.zIndex = "-1";
 }
 function hidePopup() {
-    let cont = document.getElementById("content");
+    let cont = document.getElementById("project_1");
     cont.style.visibility = "hidden";
     let bgc = document.getElementById("mask");
     bgc.style.left = "-100%";
@@ -95,5 +95,5 @@ window.onload = () => {
     let load = document.getElementById("loading");
     setTimeout(() => {
         load.style.display = "none";
-    }, 5000);
+    }, 1000);
 }
